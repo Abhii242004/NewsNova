@@ -11,4 +11,5 @@ tenacity
 sentence-transformers
 beautifulsoup4
 langchain-text-splitters
+faiss-cpu
 
