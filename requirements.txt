@@ -9,5 +9,6 @@ langchain-huggingface
 selenium
 tenacity
 sentence-transformers
-BeautifulSoup
+beautifulsoup4
 langchain-text-splitters
+
