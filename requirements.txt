@@ -1,0 +1,11 @@
+streamlit
+langchain
+python-dotenv
+requests
+pickle-mixin
+langchain-community
+langchain-groq
+langchain-huggingface
+selenium
+tenacity
+sentence-transformers
