@@ -127,7 +127,7 @@ def get_llm_response(vectorstore, query):
 # Reconfigure logging to include file handler (Note: already done above, keeping for robustness)
 logger = logging.getLogger(__name__)
 
-st.title("NAI: News AI Tool 📈 (Powered by Groq)")
+st.title("NewsNova 📈")
 
 # API Key Management in Sidebar
 st.sidebar.title("⚙️ Configuration")
@@ -253,4 +253,5 @@ if query:
                 for source in sources_list:
                     # Only display non-empty source entries
                     if source.strip():
+
                         st.write(source.strip())
